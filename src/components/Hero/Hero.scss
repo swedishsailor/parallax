@@ -1,0 +1,27 @@
+.Hero {
+    font-size:26px;
+    text-align: center;
+    background: url('https://i.postimg.cc/pTxxQBY3/Pback.png');
+    background-color: #000050;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.clouds{
+    margin-top:25px;
+    width: 810px;
+    &:nth-of-type(1){
+        margin-left: 235px;
+    }
+    &:nth-of-type(2){
+        margin-left: 10px;
+
+    }
+    &:nth-of-type(3){
+        margin-left: -250px;
+        margin-right: 65px;
+    }
+    &:nth-of-type(4){
+        margin-left: 65px;
+    }
+}
