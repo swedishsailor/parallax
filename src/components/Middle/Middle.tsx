@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { FC } from 'react'
 import './Middle.scss';
 
-const Middle = () => {
+const Middle:FC = () => {
   return (
     <div className='Middle'>
         <img className='water' src='https://i.postimg.cc/X7FbPhHt/Pmiddle.png' alt='water'/>

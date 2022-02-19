@@ -5,23 +5,50 @@
     background-color: #000050;
     background-position: bottom;
     background-repeat: repeat-x;
+    display: flex;
+    flex-wrap: wrap;
+    height:350px;
+    position: absolute;
 }
 
 .clouds{
     margin-top:25px;
-    width: 810px;
+    width: 210px;
+
     &:nth-of-type(1){
-        margin-left: 235px;
+        
     }
     &:nth-of-type(2){
-        margin-left: 10px;
-
+        
     }
     &:nth-of-type(3){
-        margin-left: -250px;
-        margin-right: 65px;
+        
     }
     &:nth-of-type(4){
-        margin-left: 65px;
+       
+    }
+}
+
+.cloudsGroup{
+    margin:15px;
+    .clouds2{
+        margin-left: 50px;
+        margin-bottom:60px;
+        
+        &:nth-of-type(1){
+            margin-left: 95px;
+            margin-bottom: 50px;
+        }
+        &:nth-of-type(2){
+            margin-left: 10px;
+        }
+        &:nth-of-type(3){
+            margin-left: -250px;
+            margin-right: 65px;
+            margin-bottom: 105px;
+        }
+        &:nth-of-type(4){
+            margin-left: 65px;
+        }
     }
 }
